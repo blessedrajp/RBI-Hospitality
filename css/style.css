@@ -215,8 +215,8 @@ background-color:#fff8ef;
 #business{
 
    background: #f8eddf; 
-   padding-top: 10px;
-   padding-bottom:136px;
+   padding-top: 100px;
+   padding-bottom:100px;
 }
 
 #business .container-size{
@@ -233,7 +233,7 @@ background-color:#fff8ef;
     font-size: 50px;
     text-transform: uppercase;
     line-height: 50px;
-    letter-spacing: 4px;
+    letter-spacing: 8px;
 }
 
 #business .businesscontent p{
@@ -271,16 +271,25 @@ background-color:#fff8ef;
 
 #story{
     background: url(../images/storybackgrd.png);
-    height: 485px;
+    height: 550px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #story .storyrow{
     max-width: 100%;
 }
+#story .storyleft .storyimg{
+height: 550px;
+}
+
+#story .storyleft .storyimg img{
+    height: 100%;
+}
 
 #story .storyrow .storyright{
     font-family:BASKVILL;
-    padding: 70px 0px 0 15px;
+    padding: 80px 0px 0px 100px;
     
 }
 
@@ -291,7 +300,7 @@ background-color:#fff8ef;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 8px;
 }
 #story .storyrow .storyright p{
 
@@ -317,8 +326,8 @@ background-color:#fff8ef;
 
 .storybottom{
     background: #f8eddf;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 104px;
+    padding-bottom: 150px;
 }
 
 .storybottom .container-size{
@@ -369,8 +378,9 @@ background-color:#fff8ef;
 
 
 #experince{
-    padding-top:60px;
-    padding-bottom:60px
+    background:#fff8ef;
+    padding-top:100px;
+    padding-bottom:100px
 }
 
 #experince .container-size{
@@ -383,7 +393,11 @@ background-color:#fff8ef;
     font-family:BASKVILL;
     font-size: 40px;
     text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 1;
 }
+
+
 
 #experince .experinceslider{
     margin-top: 80px;
@@ -412,7 +426,7 @@ background-color:#fff8ef;
 #experince .experinceowl .expback .ineercontent h1{
     font-family:BASKVILL;
     font-size: 40px;
-    color: #f8f8f8;
+    color: #f8f5f0; 
     text-transform: uppercase;
     border-bottom: #d7923b 3px solid;
     width: 66%;
@@ -422,7 +436,7 @@ background-color:#fff8ef;
 
     font-family: BASKVILL;
     font-size: 20px;
-    color: #f8f8f8;
+    color: #f8f5f0;
     width: 76%;
     padding-top: 63px;
 }
@@ -487,7 +501,7 @@ background-color:#fff8ef;
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 10px;
+    bottom: 11px;
 }
 #experince .owl-theme .owl-nav .owl-next{
 
@@ -506,7 +520,7 @@ background-color:#fff8ef;
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 10px;
+    bottom: 11px;
     color: #d7923b;
 }
 
@@ -516,8 +530,8 @@ background-color:#fff8ef;
 
     #hotel{
         background: #f8eddf;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
 
@@ -531,6 +545,8 @@ background-color:#fff8ef;
         font-family:BASKVILL;
         font-size: 60px;
         text-transform: uppercase;
+        line-height: 1;
+         letter-spacing: 8px;
     }
 
     #hotel .hoteleslider{
@@ -561,7 +577,7 @@ background-color:#fff8ef;
     #hotel .hotelowl .expback .ineercontent h1{
         font-family:BASKVILL;
         font-size: 30px;
-        color: #f8f8f8;
+        color: #f8f5f0;
         text-transform: capitalize;
         
     }
@@ -570,7 +586,7 @@ background-color:#fff8ef;
     
         font-family: BASKVILL;
         font-size: 20px;
-        color: #f8f8f8;
+        color: #f8f5f0;
        
        
     }
@@ -632,7 +648,7 @@ background-color:#fff8ef;
         display: flex;
         justify-content: center;
         position: relative;
-        bottom: 10px;
+        bottom: 11px;
     }
     #hotel .owl-theme .owl-nav .owl-next{
     
@@ -651,7 +667,7 @@ background-color:#fff8ef;
         display: flex;
         justify-content: center;
         position: relative;
-        bottom: 10px;
+        bottom: 11px;
         color: #d7923b;
     }
 
@@ -664,8 +680,10 @@ background-color:#fff8ef;
         background: url(../images/worldclass.png);
         height: auto;
         width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #worldclass .innercontent .logo{
@@ -679,15 +697,15 @@ background-color:#fff8ef;
 
     #worldclass .innercontent .text h1{
         text-transform: uppercase;
-        color: #f8f8f8;
+        color: #f8eddf; 
         font-family: BASKVILL;
-        letter-spacing: 5px;
+        letter-spacing: 8px;
         font-size: 60px;
         padding-top: 30px;
     }
     
     #worldclass .innercontent .text p{
-        color: #f8f8f8;
+        color: #f8eddf;
         font-family: BASKVILL;
         font-size: 20px;
         padding-top: 20px;
@@ -717,9 +735,9 @@ background-color:#fff8ef;
     #portfolio{
 
         background: #f8eddf;
-        padding-top: 60px;
+        padding-top: 100px;
         height: auto;
-        padding-bottom: 60px;
+        padding-bottom: 61px;
     }
 
     #portfolio .portfoliohead{
@@ -732,6 +750,8 @@ background-color:#fff8ef;
         font-size: 50px;
         letter-spacing: 5px;
         text-transform: uppercase;
+        line-height: 1;
+        letter-spacing: 8px;
 
     }
 
@@ -853,7 +873,7 @@ background-color:#fff8ef;
         background: linear-gradient(319deg, rgba(214,145,58,1) 0%, rgba(255,199,101,1) 46%, rgba(217,149,61,1) 64%, rgba(215,146,59,1) 100%);
         height: 2px;
         width: 100%;
-        margin-top: 120px;
+        margin-top: 105px;
 
     }
 
@@ -873,9 +893,10 @@ background-color:#fff8ef;
     }
 
     #rich .richhead h1{
-        font-size: 30px;
+        font-size: 40px;
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: 8px;
+        line-height: 1;
     }
 
     #rich .container-size{
@@ -917,8 +938,8 @@ background-color:#fff8ef;
 
     #jointeam{
         background: #f8eddf;
-        padding-top: 50px;
-        padding-bottom: 40px;
+        padding-top: 70px;
+        padding-bottom: 70px;
         height: auto;
     }
 
@@ -936,7 +957,8 @@ background-color:#fff8ef;
     #jointeam .joinhead h1{
         font-size: 50px;
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: 8px;
+        line-height: 1;
     }
 
     #jointeam .joincontent{
@@ -979,7 +1001,7 @@ background-color:#fff8ef;
     #Reach{
         background: #f8eddf;
         padding-top: 50px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
         height: auto;
     }
 
@@ -999,7 +1021,8 @@ background-color:#fff8ef;
     #Reach .reachhead h1{
         font-size: 50px;
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: 8px;
+        line-height: 1;
     }
 
     #Reach .reachinputs{
@@ -1063,10 +1086,19 @@ background-color:#fff8ef;
 
     #Reach .brands .brandslider{
 
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
 
     } 
+
+    #Reach .brands .brandslider .brandowl .brandimg{
+        height: 100px;
+        width: 136px;
+    }
+    #Reach .brands .brandslider .brandowl .brandimg img{
+        height: 100%;
+        width: 100%;
+    }
 
     #Reach .brands .topborder{
 
@@ -1074,7 +1106,7 @@ background-color:#fff8ef;
         background: linear-gradient(319deg, rgba(214,145,58,1) 0%, rgba(255,199,101,1) 46%, rgba(217,149,61,1) 64%, rgba(215,146,59,1) 100%);
         height: 2px;
         width: 100%;
-        margin-top: 120px;
+        margin-top: 150px;
 
     }
 
@@ -1108,7 +1140,7 @@ background-color:#fff8ef;
     }
 
     #footer .footerlist{
-        padding-top: 40px;
+        padding-top: 60px;
     }
 
     #footer .footerlist ul{
@@ -10313,6 +10345,17 @@ background-color:#fff8ef;
         max-width: 430px;
         position: relative;
     }
+
+    /* h1{
+        font-size: 36px !important;
+        letter-spacing: 8px !important;
+        line-height: 1 !important;
+
+    }
+
+    p{
+        font-size: 20px !important;
+    } */
     
     /* =========header */
     
@@ -10396,11 +10439,11 @@ background-color:#fff8ef;
     
     #banner .carousel .carousel-item .carousel-caption{
         font-family: BASKVILL;
-        bottom: -4%;
+        bottom: 5%;
     }
     #banner .carousel .carousel-item .carousel-caption .btit1{
         color:#f8f8f8;
-        font-size:30px;
+        font-size:40px;
         text-transform: uppercase;
         line-height: 21px;
     }
@@ -10437,6 +10480,7 @@ background-color:#fff8ef;
     
         font-size: 20px;
         margin-top: 30px;
+        display: none;
     }
     
     
@@ -10452,6 +10496,7 @@ background-color:#fff8ef;
         transform: rotate(90deg);
         left: -88%;
         bottom: 42%;
+        display: none;
 
     }
     
@@ -10474,7 +10519,7 @@ background-color:#fff8ef;
     #business{
     
         background: #f8eddf;
-        padding-top: 52px;
+        padding-top: 70px;
         padding-bottom: 90px;
     }
     
@@ -10489,14 +10534,14 @@ background-color:#fff8ef;
     }
     
     #business .businesscontent h1{
-        font-size: 30px;
+        font-size: 36px;
         text-transform: uppercase;
         line-height: 50px;
-        letter-spacing: 4px;
+        letter-spacing: 8px;
     }
     
     #business .businesscontent p{
-        font-size: 18px;
+        font-size: 20px;
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -10530,8 +10575,12 @@ background-color:#fff8ef;
     
     #story{
         background: url(../images/storybackgrd.png);
-        height: 485px;
+        height: auto;
         width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #story .storyrow{
         max-width: 100%;
@@ -10552,7 +10601,7 @@ background-color:#fff8ef;
     #story .storyrow .storyright{
         
         font-family: BASKVILL;
-        padding: 35px 0px 0 42px;
+        padding: 0px 0px 0 43px;
         text-align: center;
         
     }
@@ -10564,20 +10613,22 @@ background-color:#fff8ef;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       text-transform: uppercase;
-      letter-spacing: 4px;
+      letter-spacing: 8px;
+      line-height: 1;
     }
     #story .storyrow .storyright p{
     
-        font-size: 18px;
+        font-size: 20px;
     color: #f8eddf;
     padding-bottom: 24px;
     width: 100%;
+    padding-top:30px;
     
     }
     #story .storyrow .storyright a{
     
         font-family:Kelson-Sans-Regular ;
-        font-size: 18px;
+        font-size: 20px;
         background: -webkit-linear-gradient(319deg, rgba(214,145,58,1) 0%, rgba(255,199,101,1) 46%, rgba(217,149,61,1) 64%, rgba(215,146,59,1) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -10590,8 +10641,8 @@ background-color:#fff8ef;
     
     .storybottom{
         background: #f8eddf;
-        padding-top: 50px;
-        padding-bottom: 100px;
+        padding-top: 20px;
+        padding-bottom: 120px;
     }
     
     .storybottom .container-size{
@@ -10610,7 +10661,7 @@ background-color:#fff8ef;
         height: 250px;
         width: 250px;
         font-family: BASKVILL;
-        margin-top: 58px;
+        margin-top: 88px;
     
     }
     
@@ -10624,12 +10675,13 @@ background-color:#fff8ef;
     
         background: #f8eddf;
         position: absolute;
-        right: 170px;
-        top: 271px;
+        right: 140px;
+        top: 288px;
+        width: 52%;
     }
     
     .storybottom .sbcol .sb-borderbox .sbcontent h1{
-        font-size: 40px;
+        font-size: 50px;
     line-height: 40px;
     }
     
@@ -10643,19 +10695,21 @@ background-color:#fff8ef;
     
     
     #experince{
-        padding-top:60px;
-        padding-bottom:60px
+        padding-top:70px;
+        padding-bottom:70px
     }
     
     #experince .container-size{
         max-width: 100%;
-        padding: 0 35px;
+        padding: 0 26px;
     }
     
     #experince .experincehead{
         text-align:center ;
         font-family:BASKVILL;
-        font-size: 30px;
+        font-size: 36px;
+        letter-spacing: 8px;
+        line-height: 1;
         text-transform: uppercase;
     }
     
@@ -10678,18 +10732,18 @@ background-color:#fff8ef;
     #experince .experinceslider .experinceowl .expback .ineercontent{
         position: absolute;
         z-index: 999;
-        top: 89px;
+        top: 57px;
         left: 44px;
     
     }
     
     #experince .experinceowl .expback .ineercontent h1{
         font-family:BASKVILL;
-        font-size: 30px;
+        font-size: 35px;
         color: #f8f8f8;
         text-transform: uppercase;
         border-bottom: #d7923b 3px solid;
-        width: 46%;
+        width: 75%;
     }
     
     #experince .experinceowl .expback .ineercontent p{
@@ -10762,7 +10816,7 @@ background-color:#fff8ef;
         display: flex;
         justify-content: center;
         position: relative;
-        bottom: 10px;
+        bottom: 11px;
     }
     #experince .owl-theme .owl-nav .owl-next{
     
@@ -10781,7 +10835,7 @@ background-color:#fff8ef;
         display: flex;
         justify-content: center;
         position: relative;
-        bottom: 10px;
+        bottom: 11px;
         color: #d7923b;
     }
     
@@ -10791,8 +10845,8 @@ background-color:#fff8ef;
     
         #hotel{
             background: #f8eddf;
-            padding-top: 60px;
-            padding-bottom: 60px;
+            padding-top: 70px;
+            padding-bottom: 70px;
         }
     
     
@@ -10804,12 +10858,14 @@ background-color:#fff8ef;
         #hotel .Hotelhead{
             text-align:center ;
             font-family:BASKVILL;
-            font-size: 30px;
+            font-size: 36px;
+            letter-spacing: 8px;
+            line-height: 1;
             text-transform: uppercase;
         }
     
         #hotel .hoteleslider{
-            margin-top: 80px;
+            margin-top: 50px;
         }
         
         #hotel .hoteleslider .hotelowl .expback{
@@ -10941,8 +10997,10 @@ background-color:#fff8ef;
             background: url(../images/worldclass.png);
             height: auto;
             width: 100%;
-            padding-top: 50px;
-            padding-bottom: 50px;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     
         #worldclass .innercontent .logo{
@@ -10961,17 +11019,18 @@ background-color:#fff8ef;
     
         #worldclass .innercontent .text h1{
             text-transform: uppercase;
-            color: #f8f8f8;
+            color: #f8eddf;
             font-family: BASKVILL;
-            letter-spacing: 5px;
-            font-size: 40px;
+            letter-spacing: 8px;
+            font-size: 36px;
             padding-top: 30px;
+            line-height: 1;
         }
         
         #worldclass .innercontent .text p{
             color: #f8f8f8;
             font-family: BASKVILL;
-            font-size: 18px;
+            font-size: 20px;
             padding-top: 20px;
         }
 
@@ -11003,9 +11062,9 @@ background-color:#fff8ef;
         #portfolio{
     
             background: #f8eddf;
-            padding-top: 60px;
+            padding-top: 70px;
             height: auto;
-            padding-bottom: 30px;
+            padding-bottom: 40px;
         }
     
         #portfolio .portfoliohead{
@@ -11015,8 +11074,9 @@ background-color:#fff8ef;
     
         #portfolio .portfoliohead h1{
     
-            font-size: 30px;
-            letter-spacing: 5px;
+            font-size: 36px;
+            letter-spacing: 8px;
+            line-height: 1;
             text-transform: uppercase;
     
         }
@@ -11111,7 +11171,7 @@ background-color:#fff8ef;
         }
     
         #portfolio .porfoliobottom p{
-            font-size: 22px;
+            font-size: 20px;
             font-family: BASKVILL;
         }
     
@@ -11139,7 +11199,7 @@ background-color:#fff8ef;
             background: linear-gradient(319deg, rgba(214,145,58,1) 0%, rgba(255,199,101,1) 46%, rgba(217,149,61,1) 64%, rgba(215,146,59,1) 100%);
             height: 2px;
             width: 100%;
-            margin-top: 70px;
+            margin-top: 80px;
     
         }
     
@@ -11159,9 +11219,12 @@ background-color:#fff8ef;
         }
     
         #rich .richhead h1{
-            font-size: 25px;
+            font-size: 36px;
             text-transform: uppercase;
-            letter-spacing: 5px;
+            letter-spacing: 8px;
+            line-height: 1;
+            width: 90%;
+            margin: 0 auto;
         }
     
         #rich .container-size{
@@ -11221,9 +11284,10 @@ background-color:#fff8ef;
         }
     
         #jointeam .joinhead h1{
-            font-size: 30px;
+            font-size: 36px;
             text-transform: uppercase;
-            letter-spacing: 5px;
+            letter-spacing: 8px;
+            line-height: 1;
         }
     
         #jointeam .joincontent{
@@ -11232,7 +11296,7 @@ background-color:#fff8ef;
         }
     
         #jointeam .joincontent p{
-            font-size: 22px;
+            font-size: 20px;
             padding-top: 30px;
             padding-bottom: 30px;
         }
@@ -11243,11 +11307,12 @@ background-color:#fff8ef;
         #jointeam .joincontent .joinlinks a{
     
             border: #d7923b 1px solid;
-            font-size: 18px;
+            font-size: 20px;
             padding: 8px;
             color: black;
             text-decoration: none;
-            margin: 5px;
+            margin: 10px;
+            display: block;
         }
     
         #jointeam .joincontent span{
@@ -11265,7 +11330,7 @@ background-color:#fff8ef;
     
         #Reach{
             background: #f8eddf;
-            padding-top: 35px;
+            padding-top: 45px;
             padding-bottom: 30px;
             height: auto;
         }
@@ -11273,7 +11338,7 @@ background-color:#fff8ef;
         
         #Reach .container-size{
             max-width: 100%;
-            padding: 0 35px;
+            padding: 0 25px;
         }
     
     
@@ -11310,7 +11375,7 @@ background-color:#fff8ef;
     
         #Reach .reachinputs input::placeholder{
             font-family: BASKVILL;
-            font-size: 18px;
+            font-size: 20px;
             color: black;
     
         }
@@ -11337,7 +11402,7 @@ background-color:#fff8ef;
         #Reach .reachinputs .submit a{
     
             border: #d7923b 2px solid;
-            font-size: 18px;
+            font-size: 20px;
             padding: 10px 15px;
             color: black;
             text-decoration: none;
@@ -11380,7 +11445,7 @@ background-color:#fff8ef;
     
         #footer{
             background: #f8eddf;
-            padding-top:40px;
+            padding-top:70px;
             padding-bottom: 40px;
         }
     
@@ -11395,16 +11460,17 @@ background-color:#fff8ef;
         }
     
         #footer .footerlist{
-            padding-top: 30px;
+            padding-top: 45px;
         }
     
         #footer .footerlist ul{
             list-style-type: none;
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             font-family:Kelson-Sans-Bold;
             text-transform: uppercase;
-            font-size: 10px;
+            font-size: 16px;
         }
     
         #footer .footerlist ul li{
@@ -11419,7 +11485,7 @@ background-color:#fff8ef;
         }
     
         #footer .copyrights h1{
-            font-size: 25px;
+            font-size: 30px;
         }
     
         #footer .copyrights p{
@@ -11531,7 +11597,7 @@ background-color:#fff8ef;
     
     #banner .carousel .carousel-item img{
     
-        height: 500px;
+        height: 420px;
     
     }
     
@@ -11545,11 +11611,11 @@ background-color:#fff8ef;
     
     #banner .carousel .carousel-item .carousel-caption{
         font-family: BASKVILL;
-        bottom: -4%;
+        bottom: 3%;
     }
     #banner .carousel .carousel-item .carousel-caption .btit1{
         color:#f8f8f8;
-        font-size:30px;
+        font-size:40px;
         text-transform: uppercase;
         line-height: 21px;
     }
@@ -11569,15 +11635,15 @@ background-color:#fff8ef;
         display: inline-block;
         background: #d7923b;
         height: 1px;
-        width: 50px ;
+        width: 30px ;
         margin-bottom: 12px;
     }
     
     #banner .carousel .carousel-item .carousel-caption svg{
         background: linear-gradient(319deg, rgba(214,145,58,1) 0%, rgba(255,199,101,1) 46%, rgba(217,149,61,1) 64%, rgba(215,146,59,1) 100%);
-        padding: 18px 19px;
+        padding: 14px 16px;
         border-radius: 50%;
-        font-size: 18px;
+        font-size: 16px;
         color: black;
         margin-top: 58px;
     }
@@ -11586,6 +11652,7 @@ background-color:#fff8ef;
     
         font-size: 20px;
         margin-top: 30px;
+        display: none;
     }
     
     
@@ -11601,6 +11668,7 @@ background-color:#fff8ef;
         transform: rotate(90deg);
         left: -88%;
         bottom: 42%;
+        display: none;
 
     }
     
@@ -11623,13 +11691,13 @@ background-color:#fff8ef;
     #business{
     
         background: #f8eddf;
-        padding-top: 35px;
-        padding-bottom: 65px;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
     
     #business .container-size{
         max-width: 100%;
-        padding: 0px 40px;
+        padding: 0px 20px;
     }
     
     #business .businesscontent{
@@ -11638,15 +11706,16 @@ background-color:#fff8ef;
     }
     
     #business .businesscontent h1{
-        font-size: 30px;
+        font-size: 36px;
         text-transform: uppercase;
         line-height: 50px;
-        letter-spacing: 4px;
+        letter-spacing: 8px;
+        line-height: 1;
     }
     
     #business .businesscontent p{
-        font-size: 18px;
-        padding-top: 20px;
+        font-size: 20px;
+        padding-top: 40px;
         padding-bottom: 20px;
     
     }
@@ -11680,8 +11749,12 @@ background-color:#fff8ef;
     
     #story{
         background: url(../images/storybackgrd.png);
-        height: 485px;
+        height: auto;
         width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #story .storyrow{
         max-width: 100%;
@@ -11702,7 +11775,7 @@ background-color:#fff8ef;
     #story .storyrow .storyright{
         
         font-family: BASKVILL;
-        padding: 35px 0px 0 42px;
+        padding: 0px 0px 0 43px;
         text-align: center;
         
     }
@@ -11714,16 +11787,17 @@ background-color:#fff8ef;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       text-transform: uppercase;
-      letter-spacing: 4px;
+      letter-spacing: 8px;
+      line-height: 1;
     }
     #story .storyrow .storyright p{
     
-        font-size: 18px;
+    font-size: 20px;
     color: #f8eddf;
-    padding-bottom: 24px;
     width: 100%;
-    
+    padding-top:30px;
     }
+
     #story .storyrow .storyright a{
     
         font-family:Kelson-Sans-Regular ;
@@ -11740,8 +11814,8 @@ background-color:#fff8ef;
     
     .storybottom{
         background: #f8eddf;
-        padding-top: 50px;
-        padding-bottom: 100px;
+        padding-top: 20px;
+        padding-bottom: 120px;
     }
     
     .storybottom .container-size{
@@ -11760,7 +11834,7 @@ background-color:#fff8ef;
         height: 250px;
         width: 250px;
         font-family: BASKVILL;
-        margin-top: 58px;
+        margin-top: 78px;
     
     }
     
@@ -11774,17 +11848,18 @@ background-color:#fff8ef;
     
         background: #f8eddf;
         position: absolute;
-        right: 170px;
-        top: 271px;
+        right: 140px;
+        top: 288px;
+        width: 52%;
     }
     
     .storybottom .sbcol .sb-borderbox .sbcontent h1{
-        font-size: 40px;
+        font-size: 50px;
     line-height: 40px;
     }
     
     .storybottom .sbcol .sb-borderbox .sbcontent p{
-        font-size: 15px;
+        font-size: 22px;
     }
     
     
@@ -11793,20 +11868,22 @@ background-color:#fff8ef;
     
     
     #experince{
-        padding-top:60px;
-        padding-bottom:60px
+        padding-top:70px;
+        padding-bottom:70px
     }
     
     #experince .container-size{
         max-width: 100%;
-        padding: 0 35px;
+        padding: 0 16px;
     }
     
     #experince .experincehead{
         text-align:center ;
         font-family:BASKVILL;
-        font-size: 25px;
+        font-size: 36px;
         text-transform: uppercase;
+        letter-spacing: 8px;
+        line-height: 1;
     }
     
     #experince .experinceslider{
@@ -11828,24 +11905,24 @@ background-color:#fff8ef;
     #experince .experinceslider .experinceowl .expback .ineercontent{
         position: absolute;
         z-index: 999;
-        top: 89px;
+        top: 53px;
         left: 44px;
     
     }
     
     #experince .experinceowl .expback .ineercontent h1{
         font-family:BASKVILL;
-        font-size: 25px;
+        font-size: 30px;
         color: #f8f8f8;
         text-transform: uppercase;
         border-bottom: #d7923b 3px solid;
-        width: 46%;
+        width: 82%;
     }
     
     #experince .experinceowl .expback .ineercontent p{
     
         font-family: BASKVILL;
-    font-size: 18px;
+    font-size: 20px;
     color: #f8f8f8;
     width: 90%;
     padding-top: 14px;
@@ -11912,7 +11989,7 @@ background-color:#fff8ef;
         display: flex;
         justify-content: center;
         position: relative;
-        bottom: 10px;
+        bottom: 11px;
     }
     #experince .owl-theme .owl-nav .owl-next{
     
@@ -11931,7 +12008,7 @@ background-color:#fff8ef;
         display: flex;
         justify-content: center;
         position: relative;
-        bottom: 10px;
+        bottom: 11px;
         color: #d7923b;
     }
     
@@ -11941,25 +12018,27 @@ background-color:#fff8ef;
     
         #hotel{
             background: #f8eddf;
-            padding-top: 60px;
-            padding-bottom: 60px;
+            padding-top: 70px;
+            padding-bottom: 70px;
         }
     
     
         #hotel .container-size{
             max-width: 100%;
-            padding:0 35px;
+            padding:0 16px;
         }
         
         #hotel .Hotelhead{
             text-align:center ;
             font-family:BASKVILL;
-            font-size: 25px;
+            font-size: 36px;
             text-transform: uppercase;
+            letter-spacing: 8px;
+            line-height: 1;
         }
     
         #hotel .hoteleslider{
-            margin-top: 80px;
+            margin-top: 50px;
         }
         
         #hotel .hoteleslider .hotelowl .expback{
@@ -11996,7 +12075,7 @@ background-color:#fff8ef;
         #hotel .hotelowl .expback .ineercontent p{
         
             font-family: BASKVILL;
-            font-size: 17px;
+            font-size: 20px;
             color: #f8f8f8;
            
            
@@ -12059,7 +12138,7 @@ background-color:#fff8ef;
             display: flex;
             justify-content: center;
             position: relative;
-            bottom: 10px;
+            bottom: 11px;
         }
         #hotel .owl-theme .owl-nav .owl-next{
         
@@ -12078,7 +12157,7 @@ background-color:#fff8ef;
             display: flex;
             justify-content: center;
             position: relative;
-            bottom: 10px;
+            bottom: 11px;
             color: #d7923b;
         }
     
@@ -12091,8 +12170,10 @@ background-color:#fff8ef;
             background: url(../images/worldclass.png);
             height: auto;
             width: 100%;
-            padding-top: 50px;
-            padding-bottom: 50px;
+            padding-top: 70px;
+            padding-bottom: 70px;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     
         #worldclass .innercontent .logo{
@@ -12111,17 +12192,18 @@ background-color:#fff8ef;
     
         #worldclass .innercontent .text h1{
             text-transform: uppercase;
-            color: #f8f8f8;
+            color: #f8eddf;
             font-family: BASKVILL;
-            letter-spacing: 5px;
-            font-size: 30px;
+            letter-spacing: 8px;
+            font-size: 36px;
             padding-top: 30px;
+            line-height: 1;
         }
         
         #worldclass .innercontent .text p{
             color: #f8f8f8;
             font-family: BASKVILL;
-            font-size: 18px;
+            font-size: 20px;
             padding-top: 20px;
         }
 
@@ -12153,9 +12235,9 @@ background-color:#fff8ef;
         #portfolio{
     
             background: #f8eddf;
-            padding-top: 60px;
+            padding-top: 70px;
             height: auto;
-            padding-bottom: 30px;
+            padding-bottom: 40px;
         }
     
         #portfolio .portfoliohead{
@@ -12165,8 +12247,9 @@ background-color:#fff8ef;
     
         #portfolio .portfoliohead h1{
     
-            font-size: 30px;
-            letter-spacing: 5px;
+            font-size: 36px;
+            letter-spacing: 8px;
+            line-height: 1;
             text-transform: uppercase;
     
         }
@@ -12177,6 +12260,8 @@ background-color:#fff8ef;
             letter-spacing: 4px;
             text-transform: uppercase;
             padding-top: 10px;
+            width: 86%;
+            margin: 0 auto;
         }
         
         #portfolio .container-size{
@@ -12261,7 +12346,7 @@ background-color:#fff8ef;
         }
     
         #portfolio .porfoliobottom p{
-            font-size: 18px;
+            font-size: 20px;
             font-family: BASKVILL;
         }
     
@@ -12289,7 +12374,7 @@ background-color:#fff8ef;
             background: linear-gradient(319deg, rgba(214,145,58,1) 0%, rgba(255,199,101,1) 46%, rgba(217,149,61,1) 64%, rgba(215,146,59,1) 100%);
             height: 2px;
             width: 100%;
-            margin-top: 70px;
+            margin-top: 80px;
     
         }
     
@@ -12298,7 +12383,7 @@ background-color:#fff8ef;
     
         #rich{
             background:#f8eddf;
-            padding-top: 30px;
+            padding-top: 20px;
             padding-bottom: 30px;
             height: auto;
         }
@@ -12309,9 +12394,10 @@ background-color:#fff8ef;
         }
     
         #rich .richhead h1{
-            font-size: 25px;
+            font-size: 36px;
             text-transform: uppercase;
-            letter-spacing: 5px;
+            letter-spacing: 8px;
+            line-height: 1;
         }
     
         #rich .container-size{
@@ -12354,8 +12440,8 @@ background-color:#fff8ef;
     
         #jointeam{
             background: #f8eddf;
-            padding-top: 50px;
-            padding-bottom: 40px;
+            padding-top: 40px;
+            padding-bottom: 50px;
             height: auto;
         }
     
@@ -12371,9 +12457,10 @@ background-color:#fff8ef;
         }
     
         #jointeam .joinhead h1{
-            font-size: 30px;
+            font-size: 36px;
             text-transform: uppercase;
-            letter-spacing: 5px;
+            letter-spacing: 8px;
+            line-height: 1;
         }
     
         #jointeam .joincontent{
@@ -12382,7 +12469,7 @@ background-color:#fff8ef;
         }
     
         #jointeam .joincontent p{
-            font-size: 18px;
+            font-size: 20px;
             padding-top: 30px;
             padding-bottom: 30px;
         }
@@ -12393,7 +12480,7 @@ background-color:#fff8ef;
         #jointeam .joincontent .joinlinks a{
     
             border: #d7923b 1px solid;
-            font-size: 18px;
+            font-size: 20px;
             padding: 8px;
             color: black;
             text-decoration: none;
@@ -12406,7 +12493,7 @@ background-color:#fff8ef;
             background: linear-gradient(319deg, rgba(214,145,58,1) 0%, rgba(255,199,101,1) 46%, rgba(217,149,61,1) 64%, rgba(215,146,59,1) 100%);
             height: 2px;
             width: 100%;
-            margin-top: 80px;
+            margin-top: 90px;
         }
     
     
@@ -12424,7 +12511,7 @@ background-color:#fff8ef;
         
         #Reach .container-size{
             max-width: 100%;
-            padding: 0 35px;
+            padding: 0 20px;
         }
     
     
@@ -12435,9 +12522,10 @@ background-color:#fff8ef;
         }
     
         #Reach .reachhead h1{
-            font-size: 30px;
+            font-size: 36px;
             text-transform: uppercase;
-            letter-spacing: 5px;
+            letter-spacing: 8px;
+            line-height: 1;
         }
     
         #Reach .reachinputs{
@@ -12461,7 +12549,7 @@ background-color:#fff8ef;
     
         #Reach .reachinputs input::placeholder{
             font-family: BASKVILL;
-            font-size: 15px;
+            font-size: 20px;
             color: black;
     
         }
@@ -12488,7 +12576,7 @@ background-color:#fff8ef;
         #Reach .reachinputs .submit a{
     
             border: #d7923b 2px solid;
-            font-size: 18px;
+            font-size: 20px;
             padding: 10px 15px;
             color: black;
             text-decoration: none;
@@ -12505,6 +12593,15 @@ background-color:#fff8ef;
             padding-bottom: 40px;
     
         } 
+
+        #Reach .brands .brandslider .brandowl .brandimg{
+            height: 100px;
+            width: 100px;
+        }
+        #Reach .brands .brandslider .brandowl .brandimg img{
+            height: 100%;
+            width: 100%;
+        }
     
         #Reach .brands .topborder{
     
@@ -12531,8 +12628,8 @@ background-color:#fff8ef;
     
         #footer{
             background: #f8eddf;
-            padding-top:40px;
-            padding-bottom: 40px;
+            padding-top:70px;
+            padding-bottom: 50px;
         }
     
         #footer .footerlogo{
@@ -12542,20 +12639,21 @@ background-color:#fff8ef;
         } 
     
         #footer .footerlogo img{
-            height: 200px;
+            height: 250px;
         }
     
         #footer .footerlist{
-            padding-top: 30px;
+            padding-top: 45px;
         }
     
         #footer .footerlist ul{
             list-style-type: none;
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             font-family:Kelson-Sans-Bold;
             text-transform: uppercase;
-            font-size: 10px;
+            font-size: 16px;
         }
     
         #footer .footerlist ul li{
@@ -12570,11 +12668,12 @@ background-color:#fff8ef;
         }
     
         #footer .copyrights h1{
-            font-size: 25px;
+            font-size: 30px;
         }
     
         #footer .copyrights p{
-            font-size: 18px;
+            font-size: 20px;
+            padding-top: 20px;
         }
     
         #footer .footericons{
